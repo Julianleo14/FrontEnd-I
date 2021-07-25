@@ -1,0 +1,72 @@
+header{
+    background-color:#E5E5E5;
+    text-align: center;
+    letter-spacing: 10px ;
+    background-image: url(../img/GOTHAM.jpg);
+    background-position:left;
+}
+h1{
+    color:#005677;
+    background-color:#C4C4C4;
+    border: black 2px solid ;
+    border-radius: 15px;
+    margin: 1% 5%;
+
+}
+.Hobbies , .misFotos {
+    color:#005677;
+    background-color:#C4C4C4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 30px;
+    width: 95%;
+    margin: 2.5%;
+    text-align: center;
+    border: black 4px solid ;
+    border-radius: 15px;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+}
+li{
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-radius: 4px;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+div img{
+    width: 150px;
+}
+
+.fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.fotos  img{
+    width:350px; 
+}
+body{
+    position: relative;
+    height:100%;
+    margin: 0;
+}
+.fondo{
+    position: absolute;
+    background-color: #005677;
+    opacity: 0.8;
+    z-index: -1;
+    width: 100%;
+    height: 85vh;
+}
+
+

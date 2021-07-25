@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+
+.cabecera{
+background-color: #1CD1B0 ;
+font-weight: 400;
+height: 38px;
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+padding: 10px;
+}
+header h1{
+    background-color: #00669F;
+    height: 101px;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+header span{
+    position:absolute;
+    margin:28px;
+}
+/* Batman 1 */
+.batman1 {
+    margin: 0px 32px;
+    width: 300px;
+    background-color: #F3F3F3;
+    height: 529px;
+    border-radius: 25px;
+    display: inline-block;
+}
+.batmanBackground{
+    position: relative;
+    z-index: 1;
+    margin: 0px;
+}
+
+.harleyBackground{
+    position: relative;
+    z-index: 1;
+    margin: 0px;
+}
+
+.icono{
+    position: absolute;
+    margin-left: 21px;
+    z-index: 2;
+}
+.avatarBatman{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 128px;
+    z-index: 3;
+    border-radius: 75px;
+}
+#batman1{
+    margin-top: 100px;
+    z-index: 3;
+    margin-left: 90px;
+
+}
+.batman1 p{
+    text-align:justify;
+    padding: 10px;
+    
+}
+.batman1 #but1{
+    position: absolute;
+    width: 128.78px;
+    height: 48.52px;
+    background-color: #00669F;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin:25px 85px ;
+    
+}
+/* Harley */
+.harley{
+    margin: 0px 32px;
+    width: 300px;
+    background-color: #F3F3F3;
+    height: 529px;
+    border-radius: 25px;
+    display: inline-block;
+}
+.iconoh{
+    position: absolute;
+    margin-left: 21px;
+    z-index: 2;
+}
+.avatarHarley{
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 128px;
+    z-index: 3;
+    border-radius: 75px;
+}
+#harleyq{
+    margin-top: 100px;
+    z-index: 3;
+    margin-left: 90px;
+
+}
+.harley p{
+    text-align:justify;
+    padding: 10px;
+    
+}
+.harley #but2{
+    position: absolute;
+    width: 128.78px;
+    height: 48.52px;
+    background-color: #00669F;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin:25px 85px ;
+    
+}
+div{
+    margin: 150px auto 50px;
+    width: 117vh;   
+}
+footer{
+    position: fixed;
+    bottom:0;
+    background-color: #00669F;
+    color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 6vh;
+    padding: 2vh;
+}

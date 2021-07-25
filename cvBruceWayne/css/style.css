@@ -1,0 +1,44 @@
+/* Header */
+header{
+    background-color:#E5E5E5;
+    text-align: center;
+    letter-spacing: 20px ;
+    background-image: url(../img/GOTHAM.jpg);
+    background-position:left;
+}
+
+h1{
+    color:#005677;
+    background-color:#C4C4C4;
+}
+/* Subtitulos */
+.subtitulo{
+    color:#005677;
+    background-color:#C4C4C4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-indent: 30px;
+}
+/* Aqui le ponemos negrita a los primeros items */
+.Lista span{
+    font-style: italic;
+    font-weight: bold;  
+}
+/* Aqui le ponemos negrita a las fechas */
+dt{
+    font-weight: bold;
+}
+footer{
+    background-color: #005677;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;
+    justify-content:center;
+
+}
+h3{
+    color : white;
+}
+section {
+    margin: 30px 100px;
+}

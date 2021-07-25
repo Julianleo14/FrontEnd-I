@@ -1,0 +1,139 @@
+
+header section{
+    font-family:"Roboto", sans-serif;
+    font-weight: bold;
+}
+#banner{
+    background-color: black;
+    color: white;
+    size: 1vh;
+}
+#banner #idioma{
+    position: absolute;
+    right: 1vh;
+    margin: 0;
+    display: inline-block;
+
+
+}
+#banner #titulo{
+    position: relative;
+    margin: auto;
+    display: inline-block;
+}
+nav{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+nav #menu{
+    
+}
+nav #logo{
+
+}
+
+/* nav #logo{
+    position: relative;
+    margin: 2vh;
+
+
+}
+nav #menu{
+    position: absolute;
+    right: 1vmax;
+    color: white;
+    margin: 2vh;
+} */
+nav #menu button {
+    background-color:#F0A83E ;
+    border: none;
+    color: white;
+    font-family: "Roboto",sans-serif;
+}
+main #start{
+    background-color: thistle;
+}
+main #start #imagen{
+    background-image: url("../img/imagen\ background.png");
+    height: 409px;
+    background-size:cover;
+    position: relative;
+    z-index: 0;
+}
+main #start p{
+    position: absolute;
+    z-index: 1;
+}
+main #start #placer{
+    position: absolute;
+    background-color: white;
+    color: black;
+    width: 365px;
+    height: 54px;
+    right: 12vh;
+    top: 237px;
+    font-weight: 400;
+    font-size: 30px;
+    border-radius: 5px;
+}
+main #start #placer span{
+    position:absolute;
+    margin: 10px 24px;
+}
+main #start #enDescuento{
+    position: absolute;
+    right: 22vh;
+    top: 33vh;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+    text-align: center;
+}
+main #start #comederos{
+    position: absolute;
+    background-color:#F0A83E;
+    width: 141px;
+    height: 49px;
+    right: 24vh;
+    top: 37vh;
+    font-weight: 400;
+    font-size: 25px;
+    border-radius: 5px;
+    font-family: "Roboto",sans-serif;
+    color: white;
+}
+main #start #comederos span{
+    position: absolute;
+    margin: 9px;
+}
+#productos{
+    text-align: center;
+    margin: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 47px
+}
+main section #subtitulos{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+main section #subtitulos p{
+    margin: 15px;
+}
+#guion{
+    font-weight: 900;
+    font-size: x-large;
+}
