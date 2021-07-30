@@ -3,6 +3,9 @@
     font-family: "Roboto";
 
 }
+main{
+    box-sizing:100%;
+}
 aside{
     display: flex;
     flex-direction: row;
@@ -24,13 +27,16 @@ header h1{
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
     padding-left: 28px;
     font-size: 40px;
+
 }
 div{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    height: 80vh;
+    align-items:stretch;
+    flex-wrap: wrap;
+    height: 100%;
+    margin: 5% ;
 }
 section{
     width: 300px;
@@ -38,6 +44,7 @@ section{
     background-color: #F3F3F3;
     border-radius: 10px;
     position: relative;
+    margin: 2%;
 }
 .icono{
     position: absolute;
@@ -70,11 +77,27 @@ p{
 }
 footer{
     height: 51px;
+    width: 100%;
     left: 0px;
-    top: 972px;
+    bottom:0%;
     background: #00669F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: white;
     text-align: center;
     padding-top: 1%;
+}
+
+@media tablet (max-width:400px ){
+    
+    header h1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #00669F;
+        height: 101px;
+        box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+        padding-left: 28px;
+        font-size: 40px;
+        
+    }
 }
