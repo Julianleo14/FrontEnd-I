@@ -1,0 +1,25 @@
+body{
+    position: relative;
+}
+.dallas{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: tomato;
+    height: 150px;
+    width: 150px;
+    z-index: 10;
+    background-image: url("/FrontEnd_I/img/Dallas.jpg");
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    opacity: 0.9;
+}
+.dallas p{
+    color: white;
+    text-shadow:1px 1px black ;
+    font-weight:700;
+    font-size: larger;
+}

@@ -1,0 +1,28 @@
+* {
+  font-family: "Arial, Helvetica, sans-serif";
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav a {
+  color: black;
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-aroun;
+      -ms-flex-pack: space-aroun;
+          justify-content: space-aroun;
+}
+/*# sourceMappingURL=main.css.map */

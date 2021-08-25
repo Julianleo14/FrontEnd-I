@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,8BAA8B;CAAG;;AEDlD,AAAA,MAAM,CAAC;EACH,OAAO,EAAE,IAAI;CAS8B;;AAV/C,AAEI,MAFE,CAEF,GAAG,CAAC;EACA,OAAO,EAAE,IAAI;CAOwB;;AAV7C,AAKQ,MALF,CAEF,GAAG,CAGC,CAAC,CAAC;EAEE,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,UAAU;EACrB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,WAAW;CAAG",
+    "sources": [
+        "main.sass",
+        "_basic.sass",
+        "_fijos.sass",
+        "_header.sass"
+    ],
+    "names": [],
+    "file": "main.css"
+}

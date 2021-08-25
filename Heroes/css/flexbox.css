@@ -1,71 +1,78 @@
-*{
+* {
     margin: 0;
     font-family: "Roboto";
 
 }
-main{
-    box-sizing:100%;
-}
-aside{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 38px;
-    background-color:#1CD1B0;
-    color: black;
-    font-size: "Roboto","sans-serif";
+
+aside {
+    background-color: #1CD1B0;
+    font-size: "Roboto", "sans-serif";
     padding-left: 10px;
     font-weight: 400;
     font-size: 15px;
 }
-header h1{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+
+header h1 {
     background-color: #00669F;
-    height: 101px;
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
     padding-left: 28px;
     font-size: 40px;
-
 }
-div{
-    display:flex;
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+div.heroes {
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items:stretch;
+    align-items: stretch;
     flex-wrap: wrap;
-    height: 100%;
-    margin: 5% ;
+    width: 100%;
 }
-section{
+
+section {
     width: 300px;
-    height: 529px ;
+    height: 529px;
     background-color: #F3F3F3;
     border-radius: 10px;
     position: relative;
     margin: 2%;
 }
-.icono{
+
+.icono {
     position: absolute;
-    top:10px;
+    top: 10px;
     left: 10px;
 }
-.avatar{
+
+.avatar {
     position: absolute;
     left: 33%;
     top: 100px;
     border-radius: 100px;
 }
-#titulo{
-    margin:74px auto 0px;
+
+#titulo {
+    margin: 74px auto 0px;
     text-align: center;
 }
-p{
+
+p {
     text-align: justify;
     padding: 5%;
 }
-#but{
+
+#but {
     position: absolute;
     left: 30%;
     bottom: 5%;
@@ -75,11 +82,8 @@ p{
     color: white;
     box-shadow: 0px 10px 7px rgb(0 0 0 / 25%);
 }
-footer{
-    height: 51px;
-    width: 100%;
-    left: 0px;
-    bottom:0%;
+
+footer {
     background: #00669F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: white;
@@ -87,10 +91,168 @@ footer{
     padding-top: 1%;
 }
 
-@media tablet (max-width:400px ){
+
+/* body, html {
+    height: 100vh;
+    position: relative;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+aside {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2%;
+    background-color: #1CD1B0;
+    color: black;
+    font-size: "Roboto", "sans-serif";
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+header h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #00669F;
+    height: 5%;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    padding-left: 28px;
+    font-size: 40px;
+
+
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+section {
+    width: 300px;
+    height: 529px;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    position: relative;
+    margin: 2%;
+}
+
+.icono {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.avatar {
+    position: absolute;
+    left: 33%;
+    top: 100px;
+    border-radius: 100px;
+}
+
+#titulo {
+    margin: 74px auto 0px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    padding: 5%;
+}
+
+#but {
+    position: absolute;
+    left: 30%;
+    bottom: 5%;
+    background-color: #00669F;
+    width: 128px;
+    height: 48px;
+    color: white;
+    box-shadow: 0px 10px 7px rgb(0 0 0 / 25%);
+}
+
+footer {
+    position: absolute;
+    height: 3%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 620px;
+}
+
+.login h2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 72px;
+    color: #333333;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.login form button {
+    height: 54px;
+    background: #1CD1B0;
+    border-radius: 23.011px;
+    border: none;
+    margin-top: 5%;
+    color: black;
+
+}
+
+.login form input {
+    margin-top: 10px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1.53407px solid #000000;
+
+}
+
+.login form input::placeholder {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.login form p {
+    text-align: center;
+} */
+
+
+/* @media tablet (max-width:400px ){
     
-    header h1{
-        display: flex;
+    header h1{        display: flex;
         flex-direction: row;
         align-items: center;
         background-color: #00669F;
@@ -100,4 +262,4 @@ footer{
         font-size: 40px;
         
     }
-}
+} */
